@@ -182,10 +182,9 @@ const ConferenceEvent = () => {
                                         <button className=" btn-success" onClick={() => handleIncrementAvQuantity(index)}> &#43; </button>
                                       </div>
                                     </div>                                 
-                                  )
+                                      )
                                   
-                                )
-
+                                    )
                                   }
                                 </div>
 
