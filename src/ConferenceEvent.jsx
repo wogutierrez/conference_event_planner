@@ -3,6 +3,8 @@ import "./ConferenceEvent.css";
 import TotalCost from "./TotalCost";
 import { useSelector, useDispatch } from "react-redux";
 import { incrementQuantity, decrementQuantity } from "./venueSlice";
+import { incrementAvQuantity, decrementAvQuantity} from "./avSlice";
+
 const ConferenceEvent = () => {
     const [showItems, setShowItems] = useState(false);
     const [numberOfPeople, setNumberOfPeople] = useState(1);
@@ -34,10 +36,14 @@ const ConferenceEvent = () => {
         }
       };
     const handleIncrementAvQuantity = (index) => {
+      dispatch(incrementQuantity(index));
     };
 
     const handleDecrementAvQuantity = (index) => {
+      dispatch(decrementQuantity(index));
     };
+
+    // IAM HERE
 
     const handleMealSelection = (index) => {
        

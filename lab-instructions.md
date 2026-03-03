@@ -449,14 +449,14 @@ const handleDecrementAvQuantity = (index) => {
 	dispatch(decrementAvQuantity(index));
 };
 ```
-<!-- IAM HERE -->
+
 20. To implement the above code, make sure to import `incrementAvQuantity` and `decrementAvQuantity` from `avSlice`. Include the above code at the top of the `ConferenceEvent.jsx` component.
 
 
 ```javascript
 import { incrementAvQuantity, decrementAvQuantity } from "./avSlice";
 ```
-
+<!-- IAM HERE -->
 21. Now, create logic to calculate the total cost for selected AV items within the `calculateTotalCost` function, just as the cost is calculated for `venueSlice`.
 
 ```javascript
