@@ -411,9 +411,11 @@ export default configureStore({
 ```javascript
 {avItems.map((item, index) => (
 	<div className="av_data venue_main" key={index}>
+
 		<div className="img">
 			<img src={item.img} alt={item.name} />
 		</div>
+
 	<div className="text"> {item.name} </div>
 	<div> ${item.cost} </div>
 		<div className="addons_btn">
@@ -447,7 +449,7 @@ const handleDecrementAvQuantity = (index) => {
 	dispatch(decrementAvQuantity(index));
 };
 ```
-
+<!-- IAM HERE -->
 20. To implement the above code, make sure to import `incrementAvQuantity` and `decrementAvQuantity` from `avSlice`. Include the above code at the top of the `ConferenceEvent.jsx` component.
 
 
