@@ -45,8 +45,6 @@ const ConferenceEvent = () => {
     dispatch(decrementQuantity(index));
   };
 
-  // IAM HERE
-
   const handleMealSelection = (index) => {};
 
   const getItemsFromTotalCost = () => {
@@ -56,13 +54,19 @@ const ConferenceEvent = () => {
   const items = getItemsFromTotalCost();
 
   const ItemsDisplay = ({ items }) => {};
+
   const calculateTotalCost = (section) => {
     let totalCost = 0;
     if (section === "venue") {
       venueItems.forEach((item) => {
         totalCost += item.cost * item.quantity;
       });
+    } else if (section == "av") {
+      avItems.forEach((item) => {
+        totalCost += item.cost * item.quantity;
+      });
     }
+
     return totalCost;
   };
   const venueTotalCost = calculateTotalCost("venue");
