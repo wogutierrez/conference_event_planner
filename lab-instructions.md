@@ -738,6 +738,7 @@ const mealsTotalCost = calculateTotalCost("meals");
 <div className="total_cost">Total Cost: {mealsTotalCost}</div>
 ```
 
+<!-- I AM HERE -->
 <!--where does the above code go?-->
 
 ::page{title="Task 6: Display selected items in a table"}
