@@ -40,10 +40,10 @@ const ConferenceEvent = () => {
     }
   };
   const handleIncrementAvQuantity = (index) => {
-    dispatch(incrementQuantity(index));
+    dispatch(incrementAvQuantity(index));
   };
   const handleDecrementAvQuantity = (index) => {
-    dispatch(decrementQuantity(index));
+    dispatch(decrementAvQuantity(index));
   };
 
   const handleMealSelection = (index) => {
