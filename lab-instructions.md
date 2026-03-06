@@ -528,8 +528,6 @@ const avTotalCost = calculateTotalCost("av");
 <div className="total_cost">Total Cost: {avTotalCost}</div>
 ```
 
-<!-- I AM HERE -->
-
 ::page{title="Task 5: Write code for meals selection"}
 
 In this section, you will write the code for the meal selection functionality. To perform this functionality, you will include checkboxes to select the meals, allowing clients to click on a checkbox to select an item or uncheck it to deselect it.
@@ -775,6 +773,8 @@ const totalCosts = {
   meals: mealsTotalCost,
 };
 ```
+
+<!-- I AM HERE -->
 
 23. Include the above code before the return of the function component, ConferenceEvents.jsx
 
