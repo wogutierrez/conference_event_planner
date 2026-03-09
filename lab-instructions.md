@@ -774,8 +774,6 @@ const totalCosts = {
 };
 ```
 
-<!-- I AM HERE -->
-
 23. Include the above code before the return of the function component, ConferenceEvents.jsx
 
 24. To get the selected items, you need to create logic within the `getItemsFromTotalCost()` function. You can review the code for that function below and read an explanation of the code after the snippet.
