@@ -18,5 +18,4 @@ export const mealsSlice = createSlice({
 });
 
 export const { toggleMealSelection } = mealsSlice.actions;
-
 export default mealsSlice.reducer;
